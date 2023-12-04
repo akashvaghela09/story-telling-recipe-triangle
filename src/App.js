@@ -23,12 +23,17 @@ function App() {
     <div className="App">
       <div className='triangle_container'>
         <img src={TriangleImage} className='triangle' alt='triangle' />
+        
+        <div className='figure_title_container'>
+          <p className='figure_title'>Story <br />Telling <br />Recipe</p>
+        </div>
+
         <div className='button_container_top'>
-          <p onClick={() => handleStateChange(primaryState)} className='state_button primary_button button'>{primaryState}</p>
+          <p onClick={() => handleStateChange(primaryState)} className='state_button primary_button'>{primaryState}</p>
         </div>
         <div className='button_container_bottom'>
-          <p onClick={() => handleStateChange(secondaryState1)} className='state_button secondary_button button'>{secondaryState1}</p>
-          <p onClick={() => handleStateChange(secondaryState2)} className='state_button secondary_button button'>{secondaryState2}</p>
+          <p onClick={() => handleStateChange(secondaryState1)} className='state_button secondary_button'>{secondaryState1}</p>
+          <p onClick={() => handleStateChange(secondaryState2)} className='state_button secondary_button'>{secondaryState2}</p>
         </div>
       </div>
     </div>
