@@ -1,1 +1,0 @@
-# story-telling-recipe-triangle
